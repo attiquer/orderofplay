@@ -6,9 +6,9 @@ $project_token = "tunnYbMprK0P6jiU6-3TNvCC ";
 $run_token = "tFrTnqVtaYZtXG5NZuWg8EC5";
 
 
-//$parsehub = new Parsehub($api_key);
-//$projectList = $parsehub->getProjectList();
-//echo $projectList;
+$parsehub = new Parsehub($api_key);
+$projectList = $parsehub->getProjectList();
+echo $projectList;
 
 
 
